@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+    position: fixed;
+    margin-left: -8px;
+    margin-top: -9px;
+    height: 70px;
+    background-color: rgb(25, 25, 25);
+}
+.widespread-logo {
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main {
+    width: 1000px;
+    height: fit-content;
+    position: absolute;
+    margin-left: 300px;
+}
+.your-loggedin-as {
+    text-align: center;
+    margin-top: 300px;
+}
+.acc-info {
+    background-color: rgb(30,30,30);
+    width: 500px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-pfp {
+    margin-left: 185px;
+    width: 125px;
+    border-radius: 100px;
+}
+.access-denied {
+    background-color: rgb(77, 77, 77);
+}
+.access-granted {
+    background-color: rgb(76, 234, 234);
+    cursor: pointer;
+    transition: 0.5s background-color;
+}
+.access-granted:hover {
+    background-color: rgb(56, 175, 175);
+}
+.username {
+    text-align: center;
+}
+.continue {
+    width: 350px;
+    height: 40px;
+    margin-left: 75px;
+    border: 0px;
+    border-radius: 5px;
+    color: rgb(150, 150, 150);
+}
+.other-options {
+    text-align: center;
+    border-bottom: 0.5px solid rgb(200, 200, 200);
+}
+.change-account {
+    width: 350px;
+    height: 40px;
+    margin-left: 75px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s background-color;
+}
+.change-account:hover {
+    cursor: pointer;
+    background-color: rgb(60, 60, 60);
+}
+.footer {
+    width: 1000px;
+    height: fit-content;
+    margin-left: 300px;
+    margin-top: 750px;
+    position: absolute;
+}
+.footer-logo {
+    width: 200px;
+    margin-left: 400px;
+}
+.links {
+    word-spacing: 150px;
+    margin-left: 50px;
+}
+.copyright {
+    text-align: center;
+}
